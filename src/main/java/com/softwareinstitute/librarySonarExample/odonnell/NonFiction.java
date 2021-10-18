@@ -3,13 +3,14 @@ package com.softwareinstitute.librarySonarExample.odonnell;
 public abstract class NonFiction extends Book {
 
     private String referenceBook;
+    private String genre;
 
 
 ///////////////////////////////////////////////
 
     public NonFiction(String type, String genre){
         super(type);
-        genre = referenceBook;
+        this.genre = genre;
     }
 
 

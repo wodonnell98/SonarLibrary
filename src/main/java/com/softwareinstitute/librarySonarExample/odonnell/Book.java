@@ -2,7 +2,7 @@ package com.softwareinstitute.librarySonarExample.odonnell;
 
 public abstract class Book {
 
-    private String hardback;
+    private String book;
     private String creator;
     private String title;
 
@@ -10,7 +10,7 @@ public abstract class Book {
 
 
     public Book(String type){
-        this.hardback = type;
+        this.book = book;
     }
 
 ////////////////////////////////////
