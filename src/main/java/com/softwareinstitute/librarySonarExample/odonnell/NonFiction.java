@@ -2,7 +2,7 @@ package com.softwareinstitute.librarySonarExample.odonnell;
 
 public abstract class NonFiction extends Book {
 
-    private String referenceBook;
+    //private String referenceBook;
     private String genre;
 
 
@@ -17,11 +17,12 @@ public abstract class NonFiction extends Book {
 
 ///////////////////////////////////////////////////
 
-    public String getReferenceBook() {
-        return referenceBook;
+
+    public String getGenre() {
+        return genre;
     }
 
-    public void setReferenceBook(String referenceBook) {
-        this.referenceBook = referenceBook;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 }

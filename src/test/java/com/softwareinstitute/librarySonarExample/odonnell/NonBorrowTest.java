@@ -23,4 +23,11 @@ public class NonBorrowTest {
         NonBorrowable testBook = new NonBorrowable(1998, "Nat Geo", "Greek History");
         assertEquals("The book was of the correct scope", "Greek History", testBook.getScope());
     }
+
+    @Test
+    public void testTitle() {
+        NonBorrowable book = new NonBorrowable(1980, "Nat Geo", "Nature");
+        book.setTitle("GoT");
+        book.getTitle();
+    }
 }

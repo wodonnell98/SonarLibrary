@@ -9,7 +9,7 @@ public abstract class Book {
 /////////////////////////////
 
 
-    public Book(String type){
+    public Book(String book){
         this.book = book;
     }
 

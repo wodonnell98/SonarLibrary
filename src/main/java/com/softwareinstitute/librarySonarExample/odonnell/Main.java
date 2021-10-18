@@ -9,7 +9,7 @@ public class Main {
 
         book.setCreator("Blue Planet Aquarium");
         book.setTitle("Encyclopedia Galactica");
-        //System.out.println(book.getTitle());
+        System.out.println(book.getTitle());
         System.out.println(book.getScope());
         System.out.println(book.getPublisher());
         System.out.println(book.getPublishedYear());
